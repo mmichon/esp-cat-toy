@@ -2,9 +2,11 @@
 
 ESP8266-based cat toy for lazy people. Powers a web server that controls an SG-90 servo motor in several modes. Mount a feather wand like [this one](http://www.amazon.com/Luxury-Feather-Wand-Additional-Refills/dp/B00EPGZQNQ/ref=sr_1_1?ie=UTF8&qid=1455842061&sr=8-1&keywords=cat+toy+feather) to the servo motor and your cat will go nuts. Put a webcam in front of it for added fun while at the DMV.
 
-![Screenshot](http://i.imgur.com/UHqjlm4.png)
+Client-side code in jQuery and Bootstrap. Server-side code in LUA. Feel free to rip off the general web server and servo control code for you own projects.
 
-## Modes:
+![Web App](http://i.imgur.com/UHqjlm4.png)
+
+## Modes
    * The 'Position' slider lets you change the toy's position to an arbitrary value.
    * The auto buttons include:
       * 'Fast': wiggles the toy 4 times a second. My cat goes nuts.
