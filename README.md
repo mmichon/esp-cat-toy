@@ -24,8 +24,7 @@ Mount a cat-toy like this one with twist ties to the axes of the servo. Make sur
 
 ![Mounting Idea](http://i.imgur.com/knYBnSW.jpg)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=https://youtu.be/yqQ89BvmUcU
-" target="_blank">Here's a video of it at work.</a>
+<a href="https://youtu.be/yqQ89BvmUcU" target="_blank">Here's a video of it at work.</a>
 
 For ideas on building a USB programmer, flashing an ESP-8266 with NodeMCU, and basics of using the Esplorer IDE, check out [Rui Santo's guide](http://randomnerdtutorials.com/esp8266-web-server/).
 
