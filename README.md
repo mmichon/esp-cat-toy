@@ -1,11 +1,5 @@
 # wiggletron3000
 
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ABfS_Zgv9TY
-" target="_blank"><img src="http://img.youtube.com/vi/ABfS_Zgv9TY/0.jpg" 
-alt="Video" width="640" border="10" /></a>
-###### Click above for video
-
 ESP8266-based cat toy for lazy people. Powers a web server that controls a servo motor in several modes. Mount a feather wand like [this one](http://www.amazon.com/Luxury-Feather-Wand-Additional-Refills/dp/B00EPGZQNQ/ref=sr_1_1?ie=UTF8&qid=1455842061&sr=8-1&keywords=cat+toy+feather), a scrunchy ball at the end of monofiliment line, or whatever your cat likes, to the servo motor and your cat will go nuts. Put a webcam in front of it for added fun while at the DMV.
 
 Client-side code in jQuery and Bootstrap. Server-side code in LUA. Feel free to rip off the general web server and servo control code for you own projects.
@@ -19,6 +13,10 @@ Client-side code in jQuery and Bootstrap. Server-side code in LUA. Feel free to 
       * 'Slow': wiggles the toy randomly once every 3 seconds. Good for getting the cat's attention.
       * 'Bottom': moves the toy to the very bottom position and turns off.
       * 'Off': moves the toy to the top position and turns off.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ABfS_Zgv9TY
+" target="_blank"><img src="http://img.youtube.com/vi/ABfS_Zgv9TY/0.jpg" 
+alt="Video" width="640" border="10" /><p>Click for demo video</a>
 
 ## Wiring it up
 
