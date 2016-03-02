@@ -1,6 +1,12 @@
 # wiggletron3000
 
-ESP8266-based cat toy for lazy people. Powers a web server that controls an SG-90 servo motor in several modes. Mount a feather wand like [this one](http://www.amazon.com/Luxury-Feather-Wand-Additional-Refills/dp/B00EPGZQNQ/ref=sr_1_1?ie=UTF8&qid=1455842061&sr=8-1&keywords=cat+toy+feather) to the servo motor and your cat will go nuts. Put a webcam in front of it for added fun while at the DMV.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ABfS_Zgv9TY
+" target="_blank"><img src="http://img.youtube.com/vi/ABfS_Zgv9TY/0.jpg" 
+alt="Video" width="640" border="10" /></a>
+###### Click above for video
+
+ESP8266-based cat toy for lazy people. Powers a web server that controls a servo motor in several modes. Mount a feather wand like [this one](http://www.amazon.com/Luxury-Feather-Wand-Additional-Refills/dp/B00EPGZQNQ/ref=sr_1_1?ie=UTF8&qid=1455842061&sr=8-1&keywords=cat+toy+feather) to the servo motor and your cat will go nuts. Put a webcam in front of it for added fun while at the DMV.
 
 Client-side code in jQuery and Bootstrap. Server-side code in LUA. Feel free to rip off the general web server and servo control code for you own projects.
 
@@ -23,8 +29,6 @@ Hook up GPIO1 of your ESP-8266 to a servo (I used a SG-90) and point a browser a
 Mount a cat-toy like this one with twist ties to the axes of the servo. Make sure to test the range of the servo before mounting. Here's what it can look like:
 
 ![Mounting Idea](http://i.imgur.com/knYBnSW.jpg)
-
-<a href="https://youtu.be/yqQ89BvmUcU" target="_blank">Here's a video of it at work.</a>
 
 For ideas on building a USB programmer, flashing an ESP-8266 with NodeMCU, and basics of using the Esplorer IDE, check out [Rui Santo's guide](http://randomnerdtutorials.com/esp8266-web-server/).
 
