@@ -6,7 +6,7 @@
 alt="Video" width="640" border="10" /></a>
 ###### Click above for video
 
-ESP8266-based cat toy for lazy people. Powers a web server that controls a servo motor in several modes. Mount a feather wand like [this one](http://www.amazon.com/Luxury-Feather-Wand-Additional-Refills/dp/B00EPGZQNQ/ref=sr_1_1?ie=UTF8&qid=1455842061&sr=8-1&keywords=cat+toy+feather) to the servo motor and your cat will go nuts. Put a webcam in front of it for added fun while at the DMV.
+ESP8266-based cat toy for lazy people. Powers a web server that controls a servo motor in several modes. Mount a feather wand like [this one](http://www.amazon.com/Luxury-Feather-Wand-Additional-Refills/dp/B00EPGZQNQ/ref=sr_1_1?ie=UTF8&qid=1455842061&sr=8-1&keywords=cat+toy+feather), a scrunchy ball at the end of monofiliment line, or whatever your cat likes, to the servo motor and your cat will go nuts. Put a webcam in front of it for added fun while at the DMV.
 
 Client-side code in jQuery and Bootstrap. Server-side code in LUA. Feel free to rip off the general web server and servo control code for you own projects.
 
