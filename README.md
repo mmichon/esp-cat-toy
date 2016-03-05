@@ -20,11 +20,11 @@ alt="Video" width="640" border="10" /><p>Click for demo video</a>
 
 ## Wiring it up
 
-![Breadboard Idea](http://i.imgur.com/rMlZjCz.jpg)
+![Serving Suggestion](http://i.imgur.com/YnTU55n.png)
 
-Hook up GPIO1 of your ESP-8266 to a servo (I used a SG-90) and point a browser at the IP address of the ESP-8266.
+Hook up GPIO1 of your ESP-8266 to a servo (I used an SG-90) and point a browser at the IP address of the ESP-8266.
 
-Mount a cat-toy like this one with twist ties to the axes of the servo. Make sure to test the range of the servo before mounting. Here's what it can look like:
+Mount a cat toy with cable ties to the axes of the servo. Make sure to test the range of the servo before mounting. You can also point an old iphone running a streaming camera server app like [Instant Webcam](http://instant-webcam.com) to enjoy the show remotely.
 
 ![Mounting Idea](http://i.imgur.com/knYBnSW.jpg)
 
