@@ -14,10 +14,6 @@ Client-side code in jQuery and Bootstrap. Server-side code in LUA. Feel free to 
       * 'Bottom': moves the toy to the very bottom position and turns off.
       * 'Off': moves the toy to the top position and turns off.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ABfS_Zgv9TY
-" target="_blank"><img src="http://img.youtube.com/vi/ABfS_Zgv9TY/0.jpg" 
-alt="Video" width="640" border="10" /><p>Click for demo video</a>
-
 ## Wiring it up
 
 ![Serving Suggestion](http://i.imgur.com/YnTU55n.png)
@@ -25,8 +21,6 @@ alt="Video" width="640" border="10" /><p>Click for demo video</a>
 Hook up GPIO1 of your ESP-8266 to a servo (I used an SG-90) and point a browser at the IP address of the ESP-8266.
 
 Mount a cat toy with cable ties to the axes of the servo. Make sure to test the range of the servo before mounting. You can also point an old iphone running a streaming camera server app like [Instant Webcam](http://instant-webcam.com) to enjoy the show remotely.
-
-![Mounting Idea](http://i.imgur.com/knYBnSW.jpg)
 
 For ideas on building a USB programmer, flashing an ESP-8266 with NodeMCU, and basics of using the Esplorer IDE, check out [Rui Santo's guide](http://randomnerdtutorials.com/esp8266-web-server/).
 
