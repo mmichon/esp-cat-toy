@@ -1,32 +1,30 @@
-HTTP/1.0 200 OK
-Content-Type: text/html
-
 <head>
-<meta charset='utf-8'><meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' href='http://bit.ly/1QCHZPl'><!--Bootstrap-->
 <link rel='stylesheet' href='http://bit.ly/21bTK6N'><!--Bootstrap-slider-->
 <script src='http://bit.ly/1JV1Yft'></script><!--jQuery-->
 <script src='http://bit.ly/24d8ox2'></script><!--Bootstrap-->
 <script type='text/javascript'>
-       $(document).ready(function() {
-                $('#position').slider({});
-                $('#position').on('slideStop', function(slideEvt) {
-                        $.get('/', {setposition: slideEvt.value});
-                });
-       });
+    $(document).ready(function() {
+        $('#position').slider({});
+        $('#position').on('slideStop', function(slideEvt) {
+            $.get('/', {setposition: slideEvt.value});
+        });
+    });
 </script>
 </head>
 <html>
 <body>
 <div class='container'>
-<h1>WiggleTron 3000</h1>
-<p>Position: &nbsp; &nbsp; <input id='position' data-slider-id='sld_position' data-slider-min='0' data-slider-max='100' data-slider-step='1' data-slider-value='0'>
-<p><button onclick="$.get('/', {auto:'fast'})" class='btn btn-block btn-lg btn-success'>FAST</button>
-<p><button onclick="$.get('/', {auto:'slow'})" class='btn btn-block btn-lg btn-success'>SLOW</button>
-<p><button onclick="$.get('/', {auto:'bottom'})" class='btn btn-block btn-lg btn-danger'>LOWER</button>
-<p><button onclick="$.get('/', {auto:'off'})" class='btn btn-block btn-lg btn-danger'>OFF</button>
-<img src='http://bit.ly/1orxFTn'><!--Picture of a kitty, straight off Google Images-->
+<h1>KittyTron 3000</h1>
+Live KittenCam:
+<center>
+<p><iframe src="http://kittytron.ddns.net:8080" width="640" height="480"></iframe>
+<p>
+<p><button onclick="$.get('/', {auto:'sensor'})" class='btn btn-block btn-lg btn-primary'>On</button>
+<p><button onclick="$.get('/', {auto:'raise'})" class='btn btn-block btn-lg btn-primary'>Off</button>
+<p>Position: &nbsp; &nbsp; <input id='position' data-slider-id='sld_position' data-slider-min='0' data-slider-max='100' data-slider-step='10' data-slider-value='0' data-slider-tooltip="hide" style='width:90%;height:30px;'>
+</center>
 </div>
 </body>
 </html>
