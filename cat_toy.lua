@@ -14,7 +14,7 @@ print("Initializing...\n")
 -- You need to upload and save these files to your ESP8266 independently
 dofile("hcsr501.lua")
 dofile("button.lua")
---dofile("httpserver.lua")
+dofile("httpserver.lua")
 dofile("misc.lua")
 dofile("servo.lua")
 dofile("ota.lua")
