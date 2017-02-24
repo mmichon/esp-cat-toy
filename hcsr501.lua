@@ -17,8 +17,6 @@ function hcsr501.init(pin)
 		if (self.react == true) then
 			--XXX/this callback should be abstracted through class init
 			servo.start_wiggle()
-		else
-			--led.enable()
 		end
 
 		gpio.trig(self.pin, "down", self.motion_stopped)
@@ -30,11 +28,10 @@ function hcsr501.init(pin)
 		print('Motion ended after '..duration..' seconds.\n')
 
 		servo.stop_wiggle()
-		--led.disable() -- XXX/take this out later
 
 		gpio.trig(self.pin, "up", self.motion_detected)
 
-		-- post_to_ifttt("cat_toy_motion_sensed", ifttt_key, duration)
+		post_to_ifttt("cat_toy_motion_sensed", ifttt_key, duration)
     end
 
     function self.stop()
